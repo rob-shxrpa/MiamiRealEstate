@@ -1,0 +1,78 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+tmp/
+temp/
+.temp/
+
+# Miami Real Estate specific
+Files/*.csv
+import-log.txt
+import_log.txt
+temp_import.csv
+
+# PowerShell logs
+*.plog
+
+# Generated SQL
+generated_*.sql
+
+# Package files
+*.tgz
+*.tar.gz
+*.zip
+
+# Backup files
+*.bak
+*~
+*.orig
+
+# Large files
+*.pack
+*.csv 

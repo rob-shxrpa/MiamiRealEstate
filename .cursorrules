@@ -1,0 +1,19 @@
+# Shell Preferences
+
+- Always use PowerShell for command execution
+
+- Prefer .ps1 scripts over direct terminal commands
+
+- Enforce PowerShell 7+ compatibility
+ 
+# Command Handling
+
+- Wrap multi-step operations in script files
+
+- Use full paths for executables (e.g., C:\Program Files\...)
+
+- Include error handling in all scripts:
+
+  - `$ErrorActionPreference = "Stop"`
+
+  - `try/catch` blocks for critical operations
